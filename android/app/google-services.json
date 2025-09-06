@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "306331853419",
+    "project_id": "soomuch-a1899",
+    "storage_bucket": "soomuch-a1899.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306331853419:android:5c074a87ac17917fadc72e",
+        "android_client_info": {
+          "package_name": "com.example.soomuch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYOfyYJVKPlYEfBgEgRZ7ORwmfDSOR89M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
