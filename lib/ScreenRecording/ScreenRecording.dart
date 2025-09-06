@@ -5,7 +5,8 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter_screen_recording/flutter_screen_recording.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:soomuch/videoPlayerScreen.dart';
+import 'package:soomuch/ScreenRecording/videoPlayerScreen.dart';
+
 import 'package:video_player/video_player.dart';
 import 'package:intl/intl.dart';
 

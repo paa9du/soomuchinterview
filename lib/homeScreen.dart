@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'ScreenRecording.dart';
-import 'location_sharing.dart';
+import 'ScreenRecording/ScreenRecording.dart';
+import 'LiveTracking/location_sharing.dart';
 
 // We'll import task2 later when we implement it
 

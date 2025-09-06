@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:soomuch/user_a_screen.dart';
-import 'package:soomuch/user_b_screen.dart';
-
+import 'package:soomuch/LiveTracking/user_a_screen.dart';
+import 'package:soomuch/LiveTracking/user_b_screen.dart';
 
 class LocationSharingApp extends StatelessWidget {
   const LocationSharingApp({super.key});
@@ -10,9 +9,7 @@ class LocationSharingApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Location Sharing',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: const UserSelectionScreen(),
     );
   }
@@ -24,9 +21,7 @@ class UserSelectionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Select User Role'),
-      ),
+      appBar: AppBar(title: const Text('Select User Role')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
